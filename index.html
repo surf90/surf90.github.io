@@ -15,6 +15,9 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <link rel="canonical" href="https://surf90.github.io/" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#f4f7fa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1922" media="(prefers-color-scheme: dark)" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="茅ヶ崎の海と生き物の情報サイト" />
@@ -24,7 +27,38 @@
       content="海況データの「ちがログ」と、地域の生き物図鑑「ちがビオ」を公開しています。"
     />
     <meta property="og:url" content="https://surf90.github.io/" />
+    <meta property="og:locale" content="ja_JP" />
     <meta name="twitter:card" content="summary" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "茅ヶ崎の海と生き物の情報サイト",
+        "url": "https://surf90.github.io/",
+        "description": "茅ヶ崎の海と自然をまとめた個人サイトのポータル。海況データの「ちがログ」と、地域の生き物図鑑「ちがビオ」を公開しています。",
+        "inLanguage": "ja",
+        "author": { "@type": "Person", "name": "ISHIKAWA, Natsuki" },
+        "hasPart": [
+          {
+            "@type": "WebSite",
+            "name": "ちがログ",
+            "alternateName": "ちがログ｜茅ヶ崎の海情報",
+            "url": "https://surf90.github.io/chiga-log/",
+            "description": "茅ヶ崎の海況データサイト。天気・波・水温・タイドグラフ・気温をリアルタイムで確認できます。",
+            "inLanguage": "ja"
+          },
+          {
+            "@type": "WebSite",
+            "name": "ちがビオ",
+            "alternateName": "ちがビオ | 茅ヶ崎の生き物情報",
+            "url": "https://surf90.github.io/chiga-bio/",
+            "description": "茅ヶ崎の生き物情報サイト。環境別に地域の生き物を調べられます。",
+            "inLanguage": "ja"
+          }
+        ]
+      }
+    </script>
 
     <style>
       :root {
